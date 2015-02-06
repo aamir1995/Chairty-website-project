@@ -1,0 +1,211 @@
+div#navBar{
+    background-color: rgb(22, 140, 255);
+    position: fixed;
+    width: inherit;
+    height: 70px;
+    z-index: 99;
+    top: 0;
+    box-shadow: 0 2px 10px 5px #4f4f4d;
+
+}
+
+div#navBar img{
+    margin: 10px 0 0 10px;
+    box-shadow: 0 5px 15px 0 #4f4f4d;
+}
+
+div#navBar ul{
+    list-style: none;
+    margin: -90px 0 0 150px;
+}
+
+div#navBar ul li{
+    float: left;
+}
+
+div#navBar ul li a:hover {
+     background-color: rgba(4, 21, 197, 0.100);
+     border-radius: 10px;
+ }
+div#navBar ul li a:active {
+    background-color:#2649ff;
+    border-radius: 10px;
+}
+div#navBar ul li a:focus {
+    background-color:#2649ff;
+    border-radius: 10px;
+}
+
+
+div#navBar ul li a{
+    font-weight: bold;
+    font-size: 18px;
+    color: #E7E7E5;
+    display: block;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+
+        /*NavBar END*/
+
+        /*600px Display intro*/
+div.display{
+    width: 100%;
+    height: 600px;
+    margin-top: 130px;
+    background-color: rgb(22, 140, 255);
+    display: inline-block;
+    border-top: 5px solid #ff8200;
+}
+
+div.display img.poverty{
+    margin-top: 22px;
+}
+
+div.display img.devider{
+    margin: 0 0 50px 0;
+
+}
+
+div.volunteer{
+    width: 300px;
+    height: 500px;
+    background-color: #1674db;
+    margin:  50px 30px 0 0;
+    float: right;
+    border-top: 3px solid #ff8200;
+}
+
+
+div.volunteer p{
+    text-align: center;
+    color: #E7E7E5;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+div.volunteer input{
+    margin: 5px 0 0 30px;
+    padding: 15px 0 15px 5px;
+    width: 230px;
+    border: none;
+    color: #898987;
+    outline: none;
+}
+
+div.volunteer input:hover{
+    border: 3px groove #ff8200;
+}
+div.volunteer input:focus{
+    border: 3px groove #ff8200;
+}
+
+div.volunteer .submit{
+    background-color: #E7E7E5;
+    color: #404040;
+    font-weight: bold;
+    font-size: 18px;
+    width: 150px;
+    outline: none;
+    margin:  15px 0 0 75px;
+}
+
+div.volunteer .submit:hover{
+    background-color: #ff8200;
+    border: none;
+    color: #fffffd;
+}
+
+        /*600px Display intro END*/
+div.donate{
+    display: inline-block;
+    width: 100%;
+    height: 600px;
+    background-color: rgb(22, 140, 255);
+    margin-top: 65px;
+    border-top: 5px solid #ff8200;
+}
+
+div.donate .child{
+    margin: 20px 0 0 20px;
+    border: 2px solid #ff8200;
+}
+p.didyouknow{
+    color: #E7E7E5;
+    font-size: 58px;
+    float: right;
+    margin: 20px 440px 0 0;
+    text-shadow: 2px 2px 2px #21211f;
+}
+
+p.def{
+    font-size: 38px;
+    color: #E7E7E5;
+    text-align: left;
+    float: right;
+    margin: -200px 40px 0 0;
+    text-shadow: 1px 1px 1px #21211f;
+}
+p.def1{
+    font-size: 38px;
+    color: #E7E7E5;
+    text-align: left;
+    float: right;
+    margin: -85px 120px 0 0;
+    text-shadow: 1px 1px 1px #21211f;
+}
+
+img.hr-devider{
+    margin: 20px 0 0 400px;
+}
+
+div.donationForm{
+    width: 80%;
+    height: 200px;
+    background-color: #1674db;
+    margin: 30px 0 0 120px;
+    border-top: 3px solid #ff8200;
+    display: inline-block;
+
+}
+
+div.donationForm ul{
+   text-align: start;
+    margin-top: 40px;
+}
+div.donationForm ul li{
+    list-style: none;
+    display: inline;
+    padding: 0 70px;
+}
+
+div.donationForm ul .headings{
+    font-size: 28px;
+    color: #E7E7E5;
+    text-shadow: 1px 1px 1px #21211f;
+}
+
+div.donationForm ul .buttons a{
+    background-color: #E7E7E5;
+    color: #404040;
+    font-weight: bold;
+    font-size: 18px;
+    width: 150px;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+.buttons{
+    margin-left: 60px;
+    position: static;
+}
+div.donationForm ul .buttons a:hover{
+    background-color: #ff8200;
+    border: none;
+    color: #fffffd;
+}
+
+        /*Donation section START*/
+
