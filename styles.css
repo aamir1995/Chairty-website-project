@@ -1,3 +1,5 @@
+
+    /*Navigation bar START*/
 div#navBar{
     background-color: rgb(22, 140, 255);
     position: fixed;
@@ -35,8 +37,6 @@ div#navBar ul li a:focus {
     background-color:#2649ff;
     border-radius: 10px;
 }
-
-
 div#navBar ul li a{
     font-weight: bold;
     font-size: 18px;
@@ -45,11 +45,34 @@ div#navBar ul li a{
     text-decoration: none;
     padding: 10px 30px;
 }
+div#navBar input.input{
+     border: none;
+     padding: 5px 10px;
+     margin-left: 170px;
+     margin-top: 10px;
+    outline: none;
+ }
+div#navBar input.input:hover{
+    box-shadow: 0 0 2px 2px #ff8200;
+    }
+div#navBar input.input:focus{
+        box-shadow: 0 0 2px 2px #ff8200;
+    }
+div#navBar input.searchButton{
+        border: none;
+        padding: 5px 10px;
+    border-top: 1px solid #ff8200;
+    }
 
-        /*NavBar END*/
+div#navBar input.searchButton:hover{
+        background-color: #ff8200;
+        color: #fffffd;
+    }
 
-        /*600px Display intro*/
-div.display{
+        /*Navigation Bar END*/
+
+        /*600px Display intro START*/
+div.displayDiv1{
     width: 100%;
     height: 600px;
     margin-top: 130px;
@@ -58,11 +81,12 @@ div.display{
     border-top: 5px solid #ff8200;
 }
 
-div.display img.poverty{
+
+div.displayDiv img.poverty{
     margin-top: 22px;
 }
 
-div.display img.devider{
+div.displayDiv img.devider{
     margin: 0 0 50px 0;
 
 }
@@ -108,6 +132,7 @@ div.volunteer .submit{
     width: 150px;
     outline: none;
     margin:  15px 0 0 75px;
+    border-top: 2px solid  #ff8200;
 }
 
 div.volunteer .submit:hover{
@@ -117,7 +142,9 @@ div.volunteer .submit:hover{
 }
 
         /*600px Display intro END*/
-div.donate{
+
+        /*Donation Section START*/
+div.displayDiv{
     display: inline-block;
     width: 100%;
     height: 600px;
@@ -126,7 +153,7 @@ div.donate{
     border-top: 5px solid #ff8200;
 }
 
-div.donate .child{
+div.displayDiv .child{
     margin: 20px 0 0 20px;
     border: 2px solid #ff8200;
 }
@@ -166,46 +193,79 @@ div.donationForm{
     margin: 30px 0 0 120px;
     border-top: 3px solid #ff8200;
     display: inline-block;
-
 }
 
-div.donationForm ul{
-   text-align: start;
-    margin-top: 40px;
-}
-div.donationForm ul li{
+div.donationForm ul.headings{
     list-style: none;
-    display: inline;
-    padding: 0 70px;
-}
-
-div.donationForm ul .headings{
+    text-align: center;
+    margin-top: 40px;
     font-size: 28px;
     color: #E7E7E5;
     text-shadow: 1px 1px 1px #21211f;
 }
+ul.headings li{
+    display: inline;
+    padding: 0 70px;
+}
 
-div.donationForm ul .buttons a{
+div.donationForm ul.buttons{
+    list-style: none;
+    text-align: center;
+    margin-top: 50px;
+}
+
+ul.buttons li{
+    display: inline;
+    padding: 0 115px;
+
+}
+
+ul.buttons li a{
+    text-decoration: none;
     background-color: #E7E7E5;
     color: #404040;
     font-weight: bold;
     font-size: 18px;
-    width: 150px;
     padding: 10px 20px;
     outline: none;
     border: none;
-    text-decoration: none;
+    border-top: 2px solid  #ff8200;
 }
 
-.buttons{
-    margin-left: 60px;
-    position: static;
+ul.buttons a:hover{
+        background-color: #ff8200;
+        color: #fffffd;
+    }
+        /*Donation section END/
+
+        /*Updates Section Start*/
+div.displayDiv .stayInTouch{
+    color: #E7E7E5;
+    font-size: 48px;
+    text-align: center;
+    text-shadow: 2px 2px 2px #21211f;
 }
-div.donationForm ul .buttons a:hover{
-    background-color: #ff8200;
+
+div.displayDiv .mobUpdatesForm{
+    width: 80%;
+    height: 200px;
+    background-color: #1674db;
+    margin: -20px 0 0 120px;
+    border-top: 3px solid #ff8200;
+    display: inline-block;
+}
+
+div.displayDiv .mobUpdatesForm input{
+    outline: none;
     border: none;
+    padding: 10px 20px;
+}
+
+div.mobUpdatesForm>div{
+    margin-left: 275px;
+}
+.mobUpdatesForm input.forHover:hover{
+    background-color: #ff8200;
     color: #fffffd;
 }
-
-        /*Donation section START*/
 
